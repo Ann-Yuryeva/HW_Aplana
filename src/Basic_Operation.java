@@ -23,10 +23,9 @@ public class Basic_Operation {
         double average = (X+Y+Z)/count;
         System.out.println("Среднее арифмитическое введённых чисел =" + average);
 
-        double division = average/2 ;
-        int ndiv = (int) division;
-        System.out.println("Результат деления =" + ndiv);
-        if (ndiv>3) {
+        int division = (int)average/2 ;
+        System.out.println("Результат деления =" + division);
+        if (division>3) {
             System.out.println("Программа выполнена корректно");
         } else {
             System.out.println("Программа выполнена НЕкорректно");
