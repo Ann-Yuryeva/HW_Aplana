@@ -27,7 +27,7 @@ public class ExerwithString {
         if(a_len>b_len){
             System.out.println("первая строка длиннее чем вторая");
             System.out.println("первая строка : " + a);
-        }else if (a_len<b_len){
+        }else if (a_len>b_len){
             System.out.println("вторая строка длиннее чем первая");
             System.out.println("вторая строка : " + b);
         }
